@@ -1,0 +1,7 @@
+body {
+        background-color: powderblue;
+}
+#farmer_income_text1, #farmer_income_text2 {
+        font-size: 12;
+        font-size: italic;
+}

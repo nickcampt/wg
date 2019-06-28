@@ -1,0 +1,32 @@
+<!-- Kingdom Control Panel -->
+
+<html>
+        <head>
+                <title>Kingdom Control Panel</title>
+                <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+                <meta http-equiv="Content-Language" content="en-us" />
+                <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+                <!-- Start Body -->
+                <h1> Welcome to your Kingdom! </h1>
+                <b> Current Cash: </b> <b id="user_cash"> NaN </b> <br />
+                <b> Items Bought: </b> <b id="user_bought"> NaN </b> <br />
+                <b> Farmers Employed: </b> <b id="user_farmers"> NaN </b>
+                <!-- some text about how farmers work -->
+                <b id="farmer_income_text1"> (Making </b> <b id= "farmers_income_per_tick"> Farmers_Money_Per_Tick_Text </b>
+                <b id="farmer_income_text2"> per second)<br />
+                <!-- error message as needed -->
+                <h3 id="error_msg_slate"></h3>
+                <img id="aha" src="/Users/nickcamp/Desktop/wg/imgs/aha.png" style="display:none;"/>
+                <!-- THE BUTTONS -->
+                <button id="currency_click_button" onclick="currency_click()">Make_Money_Text</button>
+                <br />
+                <button id="spend_money_button" onclick="test_spend()">Spend_Money_Text</button>
+                <button id="buy_farmer_button" onclick="buy_farmer()">Buy_Farmer_Text</button>
+                <br />
+                <button id="cheat_button" onclick="cheat_currency_add()">Cheat_Text</button>
+                <!-- END BUTTONS --> 
+                <script src="kcp.js"></script>
+        </body>
+</html>
